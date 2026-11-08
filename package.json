@@ -1,0 +1,57 @@
+{
+  "name": "@emptyvessel_003/dsh-prompt-shelf",
+  "version": "0.1.0",
+  "description": "DSH Web 插件：在右侧栏管理常用指令卡片，点一下带进下一条消息，按会话每轮自动注入，已发消息可一键存回。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "assets"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "prompt",
+    "shortcut",
+    "prompt-library",
+    "right-sidebar"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.1.7-rc.2 <0.3.0"
+  },
+  "license": "MIT",
+  "author": "EmptyVessel",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmptyVessel-000/dsh-prompt-shelf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EmptyVessel-000/dsh-prompt-shelf/issues"
+  },
+  "homepage": "https://github.com/EmptyVessel-000/dsh-prompt-shelf#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# dsh-prompt-shelf：一条 insert 同时挂上宿主行与客户端半。
+- insert:
+    - id: prompt-shelf
+      name: '@emptyvessel_003/dsh-prompt-shelf'
