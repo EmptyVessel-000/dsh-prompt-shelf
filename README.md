@@ -1,6 +1,6 @@
 # 快捷指令（@emptyvessel_003/dsh-prompt-shelf）
 
-![快捷指令主界面](assets/screenshot-main.png)
+![快捷指令主界面](https://raw.githubusercontent.com/EmptyVessel-000/dsh-prompt-shelf/HEAD/assets/screenshot-main.png)
 
 DSH 右侧栏的常用指令库：把你反复要发的提示词存成卡片，点一下带进下一条消息；打开「每轮注入」后，这张卡片在当前会话的每一轮自动附带。已经发出的用户消息也能一键存回库里，下次直接复用。
 

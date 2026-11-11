@@ -1,6 +1,6 @@
 {
   "name": "@emptyvessel_003/dsh-prompt-shelf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DSH Web 插件：在右侧栏管理常用指令卡片，点一下带进下一条消息，按会话每轮自动注入，已发消息可一键存回。",
   "type": "module",
   "main": "lib/index.js",
